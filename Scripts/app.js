@@ -2,7 +2,7 @@
 
 // IIFE - Immediately Invoked Function Expression
 // anonymous self executing function
-(function () {
+let app = (function () {
     "use strict"
 
     //functional scope
@@ -33,9 +33,9 @@
         AboutButton.addEventListener("mouseout", AboutButtonOut);
     }
 
-    /*function ReturnPI() {
+      function ReturnPI() {
         return Math.PI;
-    }*/
+    }
 
 
     function AboutContent() {
@@ -44,7 +44,7 @@
 
         let paragraph = document.getElementById("paragraph");
 
-        let mySentence = "Hello, Harkirat here."
+        let mySentence = "Hello, Dinesh is here. I am robo"
 
         paragraph.textContent = paragraph;
         paragraph.textContent = mySentence;
